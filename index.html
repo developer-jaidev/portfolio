@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9a3e4272c.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <div id="header">
+            <div class="container">
+                
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        <div class="header-text">
+            <h1>Ram Ram G,<br>&nbsp; &nbsp; I'm <span>Jaidev</span></h1>
+            <p>An Andorid App and Website Developer<br>& UI/UX Designer</p>
+        </div>
+        </div>
+    </div>
+
+<!-- ----------about--------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                 <div class="about-col-1">
+                    <img src="images/bg.png">
+                 </div>
+                 <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>A versatile professional with over 4 years of experience in Android app development and UI/UX design, complemented by skills in Rest APIs, MySQL, graphic design, networking, Java, Kotlin, and advanced Excel proficiency for comprehensive digital solutions.
+                         </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Android App development</span><br>
+                                I bring years of hands-on expertise in Android app development,<br> user-friendly and innovative mobile solutions.</li>
+                            <li><span>UI/UX Designing</span><br>I excel in UI/UX design, fashioning intuitive and aesthetically<br>pleasing interfaces that enhance user experiences.</li>
+                            <li><span>Microsoft Excel</span><br>I'm adept in advanced Excel, harnessing its capabilities to drive<br>data-driven insights and streamline complex tasks.</li>
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Building Andorid apps </li>
+                            <li><span>2020 - 2021</span><br>Designing Web/App interfaces</li>
+                            <li><span>2019 - 2020</span><br>Creating attractive Videos and reels Content</li>
+                        </ul>
+                    </div> -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - Current</span><br>BCA : Bachlore of Computer Application </li>
+                            <li><span>2021-2022</span><br>Senior Scondary Class</li>
+                            <li><span>2019-2020</span><br>Matriculation </li>
+                        </ul>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/developer.jaidev/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/developer-jaidev"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jaidev-777173251/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@developer.jaidev"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------services------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>Android App Development</h2>
+                    <p>I offer Android app development services, creating custom, user-friendly apps to bring your ideas to life. Whether you're a startup or an established business, I provide end-to-end solutions with a focus on quality and a team of experienced developers.</p>
+                    <a href="#">Learn more</a>
+                
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>
+                        I provide UI/UX design services, crafting user-friendly and visually appealing interfaces to elevate your digital presence. Whether you're a startup or an established business, I offer end-to-end design solutions with a focus on user experience.</p>
+                    <a href="#">Learn more</a>
+                
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front End Web Developer</h2>
+                    <p>
+                        excel in front-end web development, dedicated to designing visually stunning and user-friendly websites. Whether you're a startup or an established business, I offer comprehensive development solutions with a strong emphasis on optimizing user experience and a team of skilled developers.</p>
+                    <a href="#">Learn more</a>
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h2>Android Apps</h2>
+                        <a href="androidappsprojects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h2>Web Development</h2>
+                       <a href="webprojects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h2>Video Editing</h2>
+                        <a href="videoeeditings.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="morework.html" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- ------------contact------------ -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>developerjaiedv11@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8572020227</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/developer.jaidev/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/developer-jaidev"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jaidev-777173251/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@developer.jaidev"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Developer Jaidev.</p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+
+    <script>
+
+        var sidemen = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemen.style.right = "0px"
+        }
+        
+        function closemenu(){
+            sidemen.style.right = "-200px"
+        }
+
+    </script>
+
+    </body>
+</html>

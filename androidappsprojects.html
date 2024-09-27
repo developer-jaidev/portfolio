@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="projects.css">
+    <script src="https://kit.fontawesome.com/b9a3e4272c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ----------about--------- -->
+
+    <h1 class="sub-title">Andriod App Development</h1>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/work-1.png">
+                </div>
+                <div class="about-col-2">
+                    <p class="details">I'm an advanced Android app developer and seasoned UI/UX designer
+                        with over 4 years of experience. Proficient in both Java and Kotlin programming languages,
+                        I'm well-versed in every aspect of Android app development, from basic to advanced
+                        features,including robust networking solutions, to create exceptional mobile experiences.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Completed Cources</p>
+                        <p class="tab-links" onclick="opentab('experience')">Licenses & certifications</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>The Complete Android Developer Course: Beginner To Advanced! (Udemy)</span><br>
+                                Completed : Nov 2022<br>
+                                Skills: Android Studio · Android Development · Android Design</li>
+                            <li><span>Advanced Android App Development (Udacity)</span><br>
+                                Completed : Oct 2019<br>
+                                Skills: PhpMyAdmin · SQL Server Management Studio · API Development · PHP</li>
+                            <li><span>Android : Data Storage & Networking (Udacity)</span><br>
+                                Completed : Aug 2019<br>
+                                Skills: User Interface Design · core android development</li>
+                            <li><span>Android Basics: User Interface & Input & Multiscreen Apps (Udacity)</span><br>
+                                Completed : Jun 2019<br>
+                                Skills: MySQL · REST APIs · Networking · Databases · API Development</li>
+                            <li><span>Intro to Java: Functional Programming (Udacity)</span><br>
+                                Completed : May 2019<br>
+                                Skills: Core Java · Java</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <div class="cert-list">
+
+                            <div class="cert">
+                                <img src="images/anroidpojects/cert1.jpg">
+                                <div class="layer">
+                                    <h2>City Egg Point</h2>
+                                    <p>Food Delevery App</p>
+                                    <a href="androidappsprojects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+            
+                            <div class="cert">
+                                <img src="images/anroidpojects/cert2.jpg">
+                                <div class="layer">
+                                    <h2>StatuUs App</h2>
+                                    <p>Short Videoo App</p>
+                                    <a href="webprojects.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ----------------portfolio---------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/anroidpojects/project1.png">
+                    <div class="layer">
+                        <h2>City Egg Point</h2>
+                        <p>Food Delevery App</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.jaicommunity.cityeggpoint">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/anroidpojects/project3.png">
+                    <div class="layer">
+                        <h2>StatuUs App</h2>
+                        <p>Short Video App</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.jaicommunity.jai.statuus&pli=1">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/anroidpojects/project2.png">
+                    <div class="layer">
+                        <h2>Medicine App</h2>
+                        <p>Medicine Delevery App</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.jaicommunity.jai.harshmedicose&pli=1">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+
+<!-- ------------contact------------ -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>developerjaiedv11@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>8572020227</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/developer.jaidev/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/developer-jaidev"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jaidev-777173251/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/@developer.jaidev"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+        </div>
+
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Developer Jaidev.</p>
+    </div>
+</div>
+
+    </body>
+    </html>
+
+</body>
+
+</html>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
